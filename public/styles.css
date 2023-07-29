@@ -1,0 +1,106 @@
+@charset 'utf-8' ;
+
+html{
+    background: rgb(129, 218, 240);
+
+    background: linear-gradient(90deg, rgb(129, 218, 240) 0%, rgb(32, 36, 44) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7C0EC", endColorstr="#A7BDEA", GradientType=1 );
+
+    
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    text-align: center;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+article.title{
+    
+    border-radius: 50px;
+    width: 38em;
+    height: 7em;
+    box-shadow: 0px 4px 23px;
+
+    
+}
+
+h1{
+    color: rgb(3, 238, 247);
+    padding-top: 10px;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+.listado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 53px;
+    margin-top: 62px;
+    padding: 20px;
+    box-shadow: 0px 4px 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} 
+    h2 {
+        color:  rgb(3, 238, 247);
+        font-size: 30px; 
+        margin-bottom: 40px;
+     }
+
+    dl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     dd{
+        font-family:monospace ;
+        font-size: 18px;
+
+        margin: 0;
+        background: hsla(312, 77%, 86%, 1);
+
+        background: linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+
+        background: linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+
+        background: linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7C0EC", endColorstr="#A7BDEA", GradientType=1 );
+
+        width: 20vh;
+        height: 27px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vh ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    dt {
+        font-size: 26px;
+        margin: 10px ;
+        
+    }
